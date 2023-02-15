@@ -1,0 +1,72 @@
+#root,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+
+}
+
+.app {
+    height: 100%;
+    background: url('./image/city.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    width: 40%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 2%;
+    box-shadow: 5px 5px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 580px;
+
+}
+
+.btn {
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 200px;
+    width: 210px;
+    opacity: 1;
+    background-color: aliceblue;
+    border: 1px solid rgba(red, green, blue, alpha);
+}
+
+.btn span {
+    color: cornflowerblue;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.btn:hover {
+    animation: rotate 0.7s ease-in-out both;
+}
+.btn:hover span{
+    animation: storm 0.7s ease-in-out both;
+    animation-delay: 0.06s;
+}
